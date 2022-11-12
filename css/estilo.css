@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(223, 173, 108);
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+
+    justify-content: center;
+    
+   
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo img{
+    padding: 3px;
+    height: 25%;
+}
+
+nav ul{
+    list-style: none;
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.menu ul li a,.redes ul li a{
+    display: block;
+    padding: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.menu ul li a:hover, .redes ul li a:hover{
+  color: rgb(140, 224, 56);
+  padding: 10px;
+  box-shadow: -9px 33px 288px 200px rgba(0,0,0,0.68);
+  -webkit-box-shadow: -9px 33px 288px 200px rgba(0,0,0,0.68);
+  -moz-box-shadow: -9px 33px 288px 200px rgba(0,0,0,0.68);
+
+}
+
+main{
+    padding-top: 20px;
+    width: 96%;
+    margin: 0 auto;
+    
+}
+
+
+
+.contenido{
+    display: flex;
+    gap: 15px;
+}
+
+.contenido div img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.contenido p{
+    font-size: large;
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.titulo{
+    color: rgb(146, 150, 155);
+    padding-bottom: 12px;
+    border-bottom: 2px rgb(146, 150, 155);
+}
