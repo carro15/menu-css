@@ -75,10 +75,69 @@ main{
 
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
+    margin-bottom: 14px;
 }
 
 .titulo{
     color: rgb(146, 150, 155);
     padding-bottom: 12px;
-    border-bottom: 2px rgb(146, 150, 155);
+    margin-bottom: 12px;
 }
+.active{
+    color: rgb(rgb(66, 188, 90)) !important;
+}
+
+.volcan{
+    box-shadow: 10px 10px 24px 22px rgb(222, 116, 116);
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    flex:1 1 auto ;
+}
+
+.volcan img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.volcan iframe{
+
+    border-radius: 10px;
+    height: 30vh;
+    width: 100%;
+}
+p{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .volcanes{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+  }
+  .volcan blockquote{
+    width: 100% !important;
+  }
+  .tiktok{
+    width: 30%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+
+  }
+
